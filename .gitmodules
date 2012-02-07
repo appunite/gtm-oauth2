@@ -1,0 +1,3 @@
+[submodule "Source/Frameworks/GTMHTTPFetcher"]
+	path = Source/Frameworks/GTMHTTPFetcher
+	url = git@github.com:appunite/gtm-http-fetcher.git

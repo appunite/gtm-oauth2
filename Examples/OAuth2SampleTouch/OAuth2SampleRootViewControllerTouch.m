@@ -16,8 +16,8 @@
 // OAuth2SampleRootViewControllerTouch.m
 
 #import "OAuth2SampleRootViewControllerTouch.h"
-#import "GTMOAuth2ViewControllerTouch.h"
-#import "GTMOAuth2SignIn.h"
+#import <GTMOAuth2/GTMOAuth2ViewControllerTouch.h>
+#import <GTMOAuth2/GTMOAuth2SignIn.h>
 
 static NSString *const kKeychainItemName = @"OAuth Sample: Google Contacts";
 static NSString *const kShouldSaveInKeychainKey = @"shouldSaveInKeychain";

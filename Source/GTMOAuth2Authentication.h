@@ -21,7 +21,7 @@
 #import <Foundation/Foundation.h>
 
 // GTMHTTPFetcher.h brings in GTLDefines/GDataDefines
-#import "GTMHTTPFetcher.h"
+#import <GTMHTTPFetcher/GTMHTTPFetcher.h>
 
 #undef _EXTERN
 #undef _INITIALIZE_AS

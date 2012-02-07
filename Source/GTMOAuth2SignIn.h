@@ -49,7 +49,7 @@
 #import <SystemConfiguration/SystemConfiguration.h>
 
 // GTMHTTPFetcher brings in GTLDefines/GDataDefines
-#import "GTMHTTPFetcher.h"
+#import <GTMHTTPFetcher/GTMHTTPFetcher.h>
 
 #import "GTMOAuth2Authentication.h"
 
