@@ -328,6 +328,9 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "GTMOAuth2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -584,7 +587,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = GTMOAuth2;
 				SDKROOT = macosx;
 			};
@@ -614,7 +616,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = GTMOAuth2;
 				SDKROOT = macosx;
 				ZERO_LINK = NO;
@@ -684,7 +685,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = GTMOAuth2;
 				SDKROOT = macosx;
 			};
@@ -715,7 +715,6 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = GTMOAuth2;
 				SDKROOT = macosx;
 				ZERO_LINK = NO;
