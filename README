@@ -1,0 +1,13 @@
+INSTALATION
+
+in your project directory run:
+git submodule add git@github.com:appunite/gtm-oauth2.git Frameworks/GTMOAuth2
+
+drag Frameworks/GTMOAuth2/Source/GTMOAuth2.xcodeproj to your project
+
+add OAuthTouchStaticLib (GTMOAuth2) to "Target Dependencies"
+add libOAuthTouch2.a to "Link Binary With Libraries"
+add "$(SOURCE_ROOT)/Frameworks/GTMOAuth2/Source/Build"
+  and "$(SOURCE_ROOT)/Frameworks/GTMOAuth2/Source/Frameworks/GTMHTTPFetcher/Source/Build"
+  to "Header Search Paths"
+
