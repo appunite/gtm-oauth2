@@ -75,11 +75,11 @@
 #import <WebKit/WebKit.h>
 
 // GTMHTTPFetcher.h brings in GTLDefines/GDataDefines
-#import "GTMHTTPFetcher.h"
+#import <GTMHTTPFetcher/GTMHTTPFetcher.h>
 
 #import "GTMOAuth2SignIn.h"
 #import "GTMOAuth2Authentication.h"
-#import "GTMHTTPFetchHistory.h" // for GTMCookieStorage
+#import <GTMHTTPFetcher/GTMHTTPFetchHistory.h> // for GTMCookieStorage
 
 @class GTMOAuth2SignIn;
 
