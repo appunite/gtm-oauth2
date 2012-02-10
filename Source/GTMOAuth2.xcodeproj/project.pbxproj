@@ -502,6 +502,7 @@
 				PRODUCT_NAME = OAuthTouch2;
 				PUBLIC_HEADERS_FOLDER_PATH = include/GTMOAuth2;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -516,6 +517,7 @@
 				PRODUCT_NAME = OAuthTouch2;
 				PUBLIC_HEADERS_FOLDER_PATH = include/GTMOAuth2;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
