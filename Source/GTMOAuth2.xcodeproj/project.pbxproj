@@ -41,6 +41,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4CB7AC0D14EA7D3100DCC1CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0AAB7014E40A0900E26EAA /* GTMHTTPFetcher.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = GTMHTTPFetcherLib;
+		};
 		BB0AAB7914E40A0900E26EAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BB0AAB7014E40A0900E26EAA /* GTMHTTPFetcher.xcodeproj */;
@@ -323,6 +330,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4CB7AC0E14EA7D3100DCC1CD /* PBXTargetDependency */,
 			);
 			name = OAuthTouchStaticLib;
 			productName = OAuthTouchStaticLibrary;
@@ -482,6 +490,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4CB7AC0E14EA7D3100DCC1CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMHTTPFetcherLib;
+			targetProxy = 4CB7AC0D14EA7D3100DCC1CD /* PBXContainerItemProxy */;
+		};
 		BB5F518F14E40B3000C991B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GTMHTTPFetcher;
