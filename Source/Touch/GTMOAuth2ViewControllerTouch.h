@@ -112,6 +112,8 @@ _EXTERN NSString* const kGTMOAuth2KeychainErrorDomain       _INITIALIZE_AS(@"com
   // viewWillDisappear indicates that some external change of the view
   // has stopped the sign-in.
   BOOL didDismissSelf_;
+    
+  BOOL isRightArrowsHidden_;
 }
 
 // the application and service name to use for saving the auth tokens
@@ -157,6 +159,8 @@ _EXTERN NSString* const kGTMOAuth2KeychainErrorDomain       _INITIALIZE_AS(@"com
 - (id)propertyForKey:(NSString *)key;
 
 @property (nonatomic, retain) NSDictionary *properties;
+
+@property (nonatomic, assign) BOOL isRightArrowsHidden;
 
 // Method for creating a controller to authenticate to Google services
 //

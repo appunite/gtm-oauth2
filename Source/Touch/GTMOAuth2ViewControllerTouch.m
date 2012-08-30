@@ -55,7 +55,8 @@ finishedWithAuth:(GTMOAuth2Authentication *)auth
             forwardButton = forwardButton_,
             navButtonsView = navButtonsView_,
             rightBarButtonItem = rightBarButtonItem_,
-            webView = webView_;
+            webView = webView_,
+            isRightArrowsHidden = isRightArrowsHidden_;
 
 @synthesize keychainItemName = keychainItemName_,
             initialHTMLString = initialHTMLString_,
@@ -343,6 +344,10 @@ finishedWithAuth:(GTMOAuth2Authentication *)auth
     [[self webView] loadHTMLString:html baseURL:nil];
   }
 
+  if (isRightArrowsHidden_) {
+      return;
+  }
+    
   rightBarButtonItem_.customView = navButtonsView_;
   self.navigationItem.rightBarButtonItem = rightBarButtonItem_;
 }
