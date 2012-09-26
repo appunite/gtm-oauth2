@@ -243,8 +243,7 @@ _EXTERN NSString* const kGTMOAuth2KeychainErrorDomain       _INITIALIZE_AS(@"com
 
 // Override default in UIViewController. If we have a navigationController, ask
 // it. else default result (i.e., Portrait mode only).
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation;
-
+- (NSUInteger)supportedInterfaceOrientations;
 // subclasses may override authNibName to specify a custom name
 + (NSString *)authNibName;
 

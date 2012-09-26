@@ -742,18 +742,17 @@ static Class gSignInClass = Nil;
   }
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-  BOOL value = YES;
-  if (!isInsideShouldAutorotateToInterfaceOrientation_) {
-    isInsideShouldAutorotateToInterfaceOrientation_ = YES;
+- (NSUInteger)supportedInterfaceOrientations {
+    
+    NSUInteger value;
+    
     UIViewController *navigationController = [self navigationController];
     if (navigationController != nil) {
-      value = [navigationController shouldAutorotateToInterfaceOrientation:interfaceOrientation];
+      value = [navigationController supportedInterfaceOrientations];
     } else {
-      value = [super shouldAutorotateToInterfaceOrientation:interfaceOrientation];
+      value = [super supportedInterfaceOrientations];
     }
-    isInsideShouldAutorotateToInterfaceOrientation_ = NO;
-  }
+
   return value;
 }
 
